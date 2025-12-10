@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabore's - Menú</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>SABORE'S</h1>
+                <p class="tagline">Comida rápida con sabor auténtico</p>
+            </div>
+            <div class="header-info">
+                <div class="price-update-info">
+                    <i class="fas fa-sync-alt"></i>
+                    <span>Precios actualizados vía JSON</span>
+                </div>
+                <button id="updatePricesBtn" class="btn-update">
+                    <i class="fas fa-redo"></i> Simular Actualización
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <section class="hero">
+            <h2>NUESTRO MENÚ</h2>
+            <p>Disfruta de nuestros platos especiales preparados con los mejores ingredientes</p>
+        </section>
+
+        <!-- Menu Sections will be loaded here by JavaScript -->
+        <div id="menuContainer" class="menu-container">
+            <!-- Menu items will be dynamically inserted here -->
+        </div>
+
+        <!-- Extras Section -->
+        <section id="extrasSection" class="menu-section">
+            <h2 class="section-title"><i class="fas fa-plus-circle"></i> EXTRAS</h2>
+            <div class="menu-items" id="extrasItems">
+                <!-- Extras will be loaded here -->
+            </div>
+        </section>
+
+        <!-- Payment Methods -->
+        <section class="payment-section">
+            <h2 class="section-title"><i class="fas fa-credit-card"></i> MÉTODOS DE PAGO</h2>
+            <div class="payment-methods">
+                <div class="payment-method">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>PAGO MÓVIL</span>
+                </div>
+                <div class="payment-method">
+                    <i class="fas fa-wallet"></i>
+                    <span>MERID DIGITAL</span>
+                </div>
+                <div class="payment-method">
+                    <i class="fab fa-bitcoin"></i>
+                    <span>BINANCE</span>
+                </div>
+                <div class="payment-method">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <span>ZELLE</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>SABORE'S</h3>
+                    <p>© 2024 Todos los derechos reservados</p>
+                </div>
+                <div class="footer-info">
+                    <p><i class="fas fa-info-circle"></i> Los precios se actualizan automáticamente desde el archivo JSON</p>
+                    <p class="json-status" id="jsonStatus">
+                        <i class="fas fa-check-circle"></i> Precios actualizados correctamente
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="menu-data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
