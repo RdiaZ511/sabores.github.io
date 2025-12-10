@@ -1,0 +1,153 @@
+{
+  "menu_items": {
+    "hamburguesas": [
+      {
+        "id": "puro-pernil",
+        "nombre": "PURO PERNIL",
+        "precio": 12.99,
+        "descripcion": "Menú de pala turina, que conduce, tortere, geronia, economia, para el barca y seas de la casa."
+      },
+      {
+        "id": "la-jefa",
+        "nombre": "LA JEFA",
+        "precio": 14.99,
+        "descripcion": "Para el barca, como carnez grano, derez queso drap, fórmulo, amargate o cerrado, tocineta, queso chieddar, amargate la causa."
+      },
+      {
+        "id": "la-comandante",
+        "nombre": "LA COMANDANTE",
+        "precio": 15.99,
+        "descripcion": "Para el barca, come carnez grano, derez queso drap, fórmulo, tocineta, queso chieddar, seas de la causa."
+      },
+      {
+        "id": "la-full-sabor",
+        "nombre": "LA FULL SABOR",
+        "precio": 16.99,
+        "descripcion": "Para el barca, come carnez grano, derez queso drap, del eyebratero, fórmulo, tocineta, queso chieddar, seas de la causa."
+      }
+    ],
+    "club_house": [
+      {
+        "id": "clasico-club",
+        "nombre": "CLÁSICO",
+        "precio": 10.99,
+        "descripcion": "Para el barca, completacional, tortere, geronia, algar, para el barca, llevar, humana y valía de la causa."
+      },
+      {
+        "id": "especial-club",
+        "nombre": "ESPECIAL",
+        "precio": 12.99,
+        "descripcion": "Para el barca, completacional, tortere, geronia, algar, para el barca, llevar, humana y valía de la causa."
+      },
+      {
+        "id": "super-especial",
+        "nombre": "SUPER ESPECIAL",
+        "precio": 14.99,
+        "descripcion": "Para el barca, completacional, tortere, geronia, algar, para el barca, llevar, humana y valía de la causa."
+      },
+      {
+        "id": "el-chieddar",
+        "nombre": "EL CHIEDDAR",
+        "precio": 13.99,
+        "descripcion": "Para el barca, completacional, tortere, geronia, algar, para el barca, llevar, humana y valía de la causa."
+      }
+    ],
+    "hamburguesas": [
+      {
+        "id": "hamburguesa-base",
+        "nombre": "HAMBURGUESAS",
+        "precio": 2.55,
+        "descripcion": "Carne, pollo o chuleta. Para el barca, completacional, tortere, geronia, algar, para el barca, llevar, humana y valía de la causa."
+      },
+      {
+        "id": "supremas",
+        "nombre": "SUPREMAS DE CARNE, POLLO O CHULETA",
+        "precio": 65.00,
+        "descripcion": "Para el barca, completacional, tortere, geronia, algar, para el barca, llevar, humana y valía de la causa."
+      },
+      {
+        "id": "la-crispy",
+        "nombre": "LA CRISPY",
+        "precio": 56.00,
+        "descripcion": "Para el barca, completacional, tortere, geronia, algar, para el barca, llevar, humana y valía de la causa."
+      }
+    ],
+    "pollo_broaster": [
+      {
+        "id": "primer-box",
+        "nombre": "EL PRIMER BOX",
+        "precio": 25.99,
+        "descripcion": "Trepasecuela al menor terceridad, ampitas pintas, arienta y salabe breca"
+      },
+      {
+        "id": "segundo-box",
+        "nombre": "EL SECUNDO BOX",
+        "precio": 29.99,
+        "descripcion": "Culturización de constantinales, japones pintas, arienta y salabe breca"
+      },
+      {
+        "id": "tercer-box",
+        "nombre": "EL TERCER BOX",
+        "precio": 32.99,
+        "descripcion": "Templar en cómo laborante emballos, ampita pintas, arienta y salabe breca"
+      },
+      {
+        "id": "family-box",
+        "nombre": "FAMILY BOX",
+        "precio": 45.99,
+        "descripcion": "Para défongo al menor terceridad, ampitas pintas, arienta y salabe breca"
+      }
+    ],
+    "papas": [
+      {
+        "id": "racion-papas",
+        "nombre": "RACIÓN DE PAPAS",
+        "precio": 2.00
+      },
+      {
+        "id": "salchipapas",
+        "nombre": "SALCHIPAPAS",
+        "precio": 4.00
+      },
+      {
+        "id": "papas-chorizo",
+        "nombre": "PAPAS FRITAS CON CHORIZO",
+        "precio": 4.00
+      }
+    ],
+    "bebidas": [
+      {
+        "id": "refresco-2l",
+        "nombre": "REFRESCO 2 LITROS",
+        "precio": 2.50
+      },
+      {
+        "id": "refresco-botella",
+        "nombre": "REFRESCO DE BOTELLA",
+        "precio": 1.10
+      },
+      {
+        "id": "agua",
+        "nombre": "AGUA",
+        "precio": 1.10
+      }
+    ]
+  },
+  "extras": [
+    {
+      "id": "tocineta",
+      "nombre": "TOCINETA",
+      "precio": 0.50
+    },
+    {
+      "id": "queso-kraf",
+      "nombre": "QUESO KRAF",
+      "precio": 0.50
+    },
+    {
+      "id": "huevo",
+      "nombre": "HUEVO",
+      "precio": 0.50
+    }
+  ]
+}
