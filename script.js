@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         try {
             // 1. Cargar el archivo JSON
-            const response = await fetch('menu.json');
+            const response = await fetch('./menu.json');
             if (!response.ok) {
                 throw new Error(`Error al cargar el menú: ${response.statusText}`);
             }
